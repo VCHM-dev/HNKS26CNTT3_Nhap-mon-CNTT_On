@@ -7,7 +7,7 @@
 | logs | Chứa các đoạn mã code quan trọng |
 
 ```powershell
-Get-Content "./data" | Select-String "ERROR"
+Get-Content "./logs/game.log" | Select-String "ERROR"
 ```
 
 ## Task list
